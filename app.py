@@ -9,6 +9,7 @@ st.title("Aluminium Composite Strength Prediction")
 
 st.write("Predict Tensile Strength of Aluminium Matrix Composites using Random Forest ML Model")
 
+st.image("Rocket.jpg", use_container_width=True)
 # Input features
 
 reinforcement = st.selectbox(
