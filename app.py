@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 # Load trained Random Forest model
-model = pickle.load(open("compo.pkl", "rb"))
+model = pickle.load(open("Compo.pkl", "rb"))
 
 st.title("Composite Material Strength Prediction")
 
