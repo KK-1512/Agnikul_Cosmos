@@ -31,12 +31,12 @@ density = st.number_input("Density (g/cm³)", 2.6, 2.9, 2.7)
 
 hardness = st.number_input("Hardness (HV)", 80, 180, 120)
 
-wear_rate = st.slider(
+wear_rate = st.number_input(
     "Wear Rate (mm³/Nm)",
     min_value=0.000001,
     max_value=0.000008,
     value=0.000003,
-    step=0.000001
+    format="%.6f"
 )
 
 # Prediction button
